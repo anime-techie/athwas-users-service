@@ -9,7 +9,7 @@ module.exports = {
 	mongoURI:
 		'mongodb+srv://athwas:athwas@cluster0.jmpbb.mongodb.net/grocery-live-users-service?retryWrites=true&w=majority',
 
-	expressPort: 3051,
+	expressPort: process.env.PORT || 3051,
 	siteUrl: 'http://192.168.1.177:3051',
 	rootPath: rootPath,
 
